@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: #eee;
+  font-size: 14px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
+#sign-in-container, #sign-up-container, #pw-forget-container, #landing-text, #home-text  {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+#sign-in-container {
+  background-color: rgba(23,62,53,0.4);
+}
+
+
+#landing-text, #home-text {
+  min-height: 80vh;
+}
+
+#wushare, #home-text-container {
+  background-color: rgba(0,0,0,0.4);
+  border-radius: 10px;
+}
+
+#landing-header, #home-header {
+  background-size: cover;
+  text-align: center;
+  background-image: url(./images/1.png);
+  height: 90%;
+  width: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#home-header {
+  background-image: url(./images/washu-bicycle.jpg);
+
+}
+
+#carimg, #carimg-nav {
+  width: 70px;
+  height: 70px;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: rgb(165, 20, 23);
+}
+
+#carimg-nav {
+  width: 30px;
+  height: 30px;
+  padding: 2px;
+}
+
+#footer li {
+  list-style: none;
+}
+
+#footer a {
+  text-decoration: none;
+}
+
+#footer .row p {
+  color: white;
+}
+
+#footer ul {
+  border-left: 2px solid black;
+}
+
+#join-us-container {
+  background-color: rgb(0,115,96);
+}
+
+#exclusive {
+  border-left: 1.5px solid black;
+  color: rgb(165, 20, 23);
+  font-size: 1.2em;
+  padding-left: 10px;
+}
+
+.card {
+  min-width: 21rem;
+}
+
+.pay-amount:before {
+  content: "$";
+}
+
+.leaving-on:before {
+  font-weight: 700;
+  color: maroon;
+  content: "Leaving on:  ";
+}
+
+.returning-on:before {
+  font-weight: 700;
+  color: maroon;
+  content: "Returning on:  ";
+}
+
+.time-leaving-on:before, .time-returning-on:before {
+  font-weight: 700;
+  content: "At: ";
+}
+
+.dest-from:before {
+  color: maroon;
+  font-weight: 700;
+  content: "From: ";
+}
+
+.dest-to:before {
+  color: maroon;
+  font-weight: 700;
+  content: "To: ";
+}
+
+.name-on-card {
+  font-size: 1.3em;
+}
+
+#download-container {
+  background-color: rgba(23,62,53,0.7);
+  padding-top: 75px;
+  padding-bottom: 75px;
+  border-radius: 5px;
+}
+
+.type-of-ride {
+  text-transform: uppercase;
+}
+
+#fetch-rides-container {
+  background-color: rgb(23,62,53);
+}
+
+#fetch-rides-cards {
+  overflow-x: scroll;
+}
+
+
