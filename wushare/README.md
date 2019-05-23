@@ -1,7 +1,7 @@
 
-##Creative Project CSE503
+WUSHARE 
 
-### Creative Portion Description
+### Some additional features
 
 **Password Reset**
 
